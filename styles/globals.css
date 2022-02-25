@@ -1,0 +1,34 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* next-themes config */
+[data-theme="dark"],
+[data-theme="dark"] body {
+  color: #fff;
+  background: #000;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Dropdown */
+/* .dropdown:hover .dropdown-menu {
+  display: block;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
