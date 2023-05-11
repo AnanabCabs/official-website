@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 {
   "name": "ananab",
   "version": "0.1.0",
@@ -33,6 +34,42 @@
     "tailwindcss": "^2.2.17"
   }
 }
+=======
+{
+  "name": "ananab",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@material-ui/core": "^4.12.3",
+    "@mui/icons-material": "^5.0.4",
+    "@mui/material": "^5.0.4",
+    "@sanity/client": "^2.21.3",
+    "dotenv": "^10.0.0",
+    "next": "11.1.2",
+    "next-themes": "^0.0.15",
+    "nodemailer": "^6.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "recharts": "^2.1.5",
+    "swr": "^1.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "eslint": "8.0.1",
+    "eslint-config-next": "11.1.2",
+    "postcss": "^8.3.9",
+    "tailwindcss": "^2.2.17"
+  }
+}
+>>>>>>> 67bf36377577b46be472058945021139905c4fa3
 =======
 {
   "name": "ananab",
