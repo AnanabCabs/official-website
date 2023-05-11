@@ -1,8 +1,12 @@
-import Head from "next/head";
 import { useEffect, useState } from "react";
-import Footer from "../components/Footer";
+import Head from "next/head";
+import Image from "next/image";
+import Hero from "../components/Hero";
 import Links from "../components/Links";
 import NavBar from "../components/NavBar";
+import Form from "../components/ContactForm";
+import Footer from "../components/Footer";
+import styles from "../styles/Home.module.css";
 
 export default function Terms() {
   useEffect(() => {
@@ -109,12 +113,17 @@ export default function Terms() {
 
             <div class="flex flex-wrap">
               <h3 class="m-3 text-lg md:text-xl text-center">
-                The official terms and conditions of Ananab Cabs.
+                Ananab is a company developed to curb the technology gap in
+                providing innovative ideas to suit public demands. It was
+                established out of a desire to provide instant transport
+                services by a click or touch to offer new opportunities to the
+                desiring public to meet demand and control expectation hence
+                making public transport reliable.
               </h3>
             </div>
 
             <h4 class="my-4 text-xl md:text-2xl font-bold">Downloads</h4>
-            <p class="mt-2 text-lg md:text-xl">
+            {/* <p class="mt-2 text-lg md:text-xl">
               <a
                 href="OriginalTerms.pdf"
                 class="text-yellow-400 text-lg font-bold hover:underline"
@@ -134,7 +143,7 @@ export default function Terms() {
               </a>
             </p>
 
-            {/* <p class="mt-2 text-lg md:text-xl">
+            <p class="mt-2 text-lg md:text-xl">
               <a
                 href="RentalTerms.pdf"
                 class="text-yellow-400 text-lg font-bold hover:underline"
@@ -157,12 +166,17 @@ export default function Terms() {
 
             <div class="flex flex-wrap">
               <h3 class="m-3 text-lg md:text-xl text-center">
-                The official privacy statement of Ananab Cabs.
+                Ananab is a company developed to curb the technology gap in
+                providing innovative ideas to suit public demands. It was
+                established out of a desire to provide instant transport
+                services by a click or touch to offer new opportunities to the
+                desiring public to meet demand and control expectation hence
+                making public transport reliable.
               </h3>
             </div>
 
             <h4 class="my-4 text-xl md:text-2xl font-bold">Downloads</h4>
-            <p class="mt-2 text-lg md:text-xl">
+            {/* <p class="mt-2 text-lg md:text-xl">
               <a
                 href="Privacy.pdf"
                 class="text-yellow-400 text-lg font-bold hover:underline"
@@ -170,7 +184,7 @@ export default function Terms() {
               >
                 Privacy Statement
               </a>
-            </p>
+            </p> */}
           </div>
         </section>
 
